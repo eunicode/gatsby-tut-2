@@ -1,11 +1,13 @@
 import Typography from "typography";
 
-// Typography.js themes are simple Javascript objects (Source Typography readme).
+// Typography.js themes are simple Javascript objects (Source: Typography readme).
 
-import bootstrapTheme from "typography-theme-bootstrap";
-// import lawtonTheme from "typography-theme-lawton";
+// The Lawton theme adds Google Fonts. Restart the dev server to load the new 
+// Google Fonts).
 
-const typography = new Typography(bootstrapTheme);
-// const typography = new Typography(lawtonTheme);
+import lawtonTheme from "typography-theme-lawton";
 
+const typography = new Typography(lawtonTheme);
+
+// Typography module
 export default typography;
