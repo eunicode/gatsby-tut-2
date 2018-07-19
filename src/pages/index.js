@@ -1,7 +1,11 @@
 import React from "react"
 
+// The `style` attribute accepts a JavaScript object with camelCased properties (keys)
+// rather than a CSS string.
+// Inline style property example: `maxWdith: 600`
+
 export default () => (
-    <div>
+    <div style={{ margin: '3rem auto', maxWidth: 600 }}>
       <h1>Richard Hamming on Luck</h1>
       <div>
         <p>
