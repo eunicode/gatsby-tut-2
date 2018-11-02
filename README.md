@@ -9,6 +9,6 @@ In this tutorial, I
 - install themes for Typography.js
 - create and import CSS modules (`.module.css`) to style components
 
-# Installation and development
+## Installation and development
 
 See README in _[Gatsby Tutorial Part 1](https://github.com/eunicode/gatsby-tut-1)_.
